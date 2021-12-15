@@ -1,0 +1,32 @@
+body{
+	background-color: #1f2022;
+	color: white;
+}
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	color: white;
+	background-color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.page-link{
+	background-color: #1f2022;
+	color: white;
+	border: 1px solid #626568;
+}
+
+.bg-light {
+	background-color: #26272a !important;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: white
+}

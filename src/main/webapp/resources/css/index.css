@@ -1,0 +1,19 @@
+.search{
+	margin-top: 15%;
+	justify-content: center;
+}
+.search-bar{
+	width: 600px;
+}
+.logo-div{
+	text-align: center;
+}
+.logo-img{
+	width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+	.search{
+		margin-top: 30%;
+	}
+}

@@ -21,7 +21,10 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.record.lol" />
+	<context:component-scan base-package="com.record.controller" />
+	<context:component-scan base-package="com.record.dao" />
+	<context:component-scan base-package="com.record.service" />
+	<context:component-scan base-package="com.record.vo" />
 	
 	
 	

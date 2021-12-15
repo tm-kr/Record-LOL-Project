@@ -1,0 +1,19 @@
+.profile-container{
+	margin-top: 10%;
+}
+.info, .tier, .most, .record{
+	 background-color: #26272a;
+}
+div.game-info .col-auto{
+	margin: auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.profile-container{
+		margin-top: 20%;
+	}
+	.kda, .team{
+		display: none;
+	}
+}
